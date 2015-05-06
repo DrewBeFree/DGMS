@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblScoreCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android1:stretchColumns="*" >
+
+</TableLayout>

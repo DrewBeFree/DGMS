@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dgms.pkg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainScreen" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name=".DialogWithInputBox" >
+            
+        </activity>
+        <activity
+            android:name=".PlayGameActivity" >
+        </activity>
+        <activity
+           
+            android:name=".Play" >
+           
+        </activity>
+        <activity 
+            android:name=".CoursesList">
+            
+        </activity>
+
+        <activity
+            
+            android:name=".CourseLookup" >
+        </activity>
+        <activity
+           
+            android:name=".LocateCourse" >
+           
+        </activity>
+        <activity
+           
+            android:name=".Menu" >
+           
+        </activity>
+         <activity
+           
+            android:name=".Maps" >
+           
+        </activity>
+         <activity
+            android:name=".NewGame" >
+           
+        </activity>
+        <activity
+            android:name=".NewCourse" >
+            
+        </activity>
+        <activity
+            android:name=".CreateCourse">
+            
+        </activity>
+        <activity
+            android:name=".ExistingCourse" >
+           
+        </activity>
+       
+        <activity
+           
+            android:name=".CourseMap" >
+           
+        </activity>
+        <activity 
+            android:name=".ScoreCardActivity" >
+            
+        </activity>
+        <activity
+            
+            android:name="MarkTee">
+            
+        </activity>
+    </application>
+
+</manifest>

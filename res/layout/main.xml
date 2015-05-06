@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text=" PLAY"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/locateCourse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" Locate Course"
+        android:textStyle="bold" />
+
+</LinearLayout>

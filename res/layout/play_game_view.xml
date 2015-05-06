@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewHoleN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/holeNum"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtHoleNumberValue"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/strEmty"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewPar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/par"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/parsArray" />
+
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1" >
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnPrevHole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="prevHoleClick"
+                android:text="@string/btnPrevHole" />
+
+            <Button
+                android:id="@+id/btnNextHole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextHoleClick"
+                android:text="@string/btnNextHole" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tblPlayHole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strPlayer"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textViewScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/strScore"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/strTotal"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="0,1" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnAddPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addPlayerClick"
+                android:text="@string/btnAddPlayer" />
+
+            <Button
+                android:id="@+id/btnViewScores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="viewScoresClick"
+                android:text="@string/btnViewScorecard" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnMarkTee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="markTeeClick"
+                android:text="@string/btnMarkTee" />
+
+            <Button
+                android:id="@+id/btnMarkPin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="markPinClick"
+                android:text="@string/btnMarkPin" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewMapClick"
+        android:text="@string/btnViewMap" />
+
+</LinearLayout>

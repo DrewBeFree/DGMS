@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DGMSActivity!</string>
+    <string name="app_name">DGMS</string>
+    <string name="hint">Address, Difficulty, etc...</string>
+    <string name="holeNum">Hole #</string>
+    <string name="par">Par</string>
+    <string name="btnPrevHole">&lt;&lt; Prev. hole</string>
+    <string name="btnNextHole">Next hole &gt;&gt;</string>
+    <string name="strPlayer">Player</string>
+    <string name="strScore">Score</string>
+    <string name="strTotal">Total</string>
+    <string name="btnAddPlayer">Add Player</string>
+    <string name="btnViewScorecard">View Scorecard</string>
+    <string name="btnMarkTee">Mark Tee</string>
+    <string name="btnMarkPin">Mark Pin</string>
+    <string name="strEmty"/>
+    <string name="btnViewMap">View Map</string>
+    <string-array name="parsArray">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+    </string-array>
+        <string name="menuSubmitCourse">Submit Course</string>
+
+</resources>

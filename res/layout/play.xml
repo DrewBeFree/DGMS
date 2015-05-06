@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|fill"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/findCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="courseLookupClick"
+        android:text="Course Lookup"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="newCourseClick"
+        android:text="New Course "
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/justScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:onClick="justScorecardClick"
+        android:text="Just Scorecard"
+        android:textStyle="bold" />
+
+</LinearLayout>
